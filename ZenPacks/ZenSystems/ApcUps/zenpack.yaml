@@ -1,0 +1,169 @@
+name: ZenPacks.ZenSystems.ApcUps
+device_classes:
+  /Power/UPS/ApcUps:
+    create: True
+    remove: True
+    zProperties:
+      zCollectorPlugins: ['community.snmp.ApcUpsDeviceMap', 'community.snmp.ApcUpsBatteryMap']
+      zDeviceTemplates: ['ApcUps', 'ApcUpsAdvanced', 'Device']
+      zPythonClass: ZenPacks.ZenSystems.ApcUps.ApcUpsDevice
+      zSnmpVer: v1
+
+    templates:
+      ApcUps:
+        description: ''
+        targetPythonClass: Products.ZenModel.Device
+        datasources:
+          actualVoltage:
+            type: SNMP
+            datapoints:
+              actualVoltage:
+                aliases: {actualVoltage: null}
+            oid: 1.3.6.1.4.1.318.1.1.1.2.2.8.0
+          remainingCapacity:
+            type: SNMP
+            datapoints:
+              remainingCapacity:
+                rrdmax: 100
+                aliases: {remainingCapacity: null}
+            oid: 1.3.6.1.4.1.318.1.1.1.2.2.1.0
+          remainingTime:
+            type: SNMP
+            datapoints:
+              remainingTime:
+                aliases: {remainingTime: null}
+            oid: 1.3.6.1.4.1.318.1.1.1.2.2.3.0
+        graphs:
+          Actual Voltage:
+            units: Volts
+            graphpoints:
+              actualVoltage:
+                dpName: actualVoltage_actualVoltage
+          Remaining Capacity:
+            units: '%'
+            miny: 0
+            maxy: 100
+            custom: --alt-y-grid
+            graphpoints:
+              remainingCapacity:
+                dpName: remainingCapacity_remainingCapacity
+          Remaining Time:
+            units: mins
+            graphpoints:
+              remainingTime:
+                dpName: remainingTime_remainingTime
+                rpn: 6000,/
+      ApcUpsAdvanced:
+        description: ''
+        targetPythonClass: Products.ZenModel.Device
+        datasources:
+          upsAdvBatteryCapacity:
+            type: SNMP
+            datapoints:
+              upsAdvBatteryCapacity:
+                aliases: {ups_adv_battery_capacity: null}
+            oid: 1.3.6.1.4.1.318.1.1.1.2.2.1.0
+          upsAdvOutputFrequency:
+            type: SNMP
+            datapoints:
+              upsAdvOutputFrequency:
+                aliases: {ups_adv_output_frequency: null}
+            oid: 1.3.6.1.4.1.318.1.1.1.4.2.2.0
+          upsAdvOutputLoad:
+            type: SNMP
+            datapoints:
+              upsAdvOutputLoad:
+                aliases: {ups_adv_output_load: null}
+            oid: 1.3.6.1.4.1.318.1.1.1.4.2.3.0
+          upsAdvOutputVoltage:
+            type: SNMP
+            datapoints:
+              upsAdvOutputVoltage:
+                aliases: {ups_adv_output_voltage: null}
+            oid: 1.3.6.1.4.1.318.1.1.1.4.2.1.0
+        graphs:
+          Battery Capacity:
+            units: '%'
+            graphpoints:
+              upsAdvBatteryCapacity:
+                dpName: upsAdvBatteryCapacity_upsAdvBatteryCapacity
+          Output Frequency:
+            units: Hz
+            graphpoints:
+              upsAdvOutputFrequency:
+                dpName: upsAdvOutputFrequency_upsAdvOutputFrequency
+          Output Load:
+            units: '%'
+            graphpoints:
+              upsAdvOutputLoad:
+                dpName: upsAdvOutputLoad_upsAdvOutputLoad
+          Output Voltage:
+            units: VAC
+            graphpoints:
+              upsAdvOutputVoltage:
+                dpName: upsAdvOutputVoltage_upsAdvOutputVoltage
+
+classes:
+  DEFAULTS:
+    base: [zenpacklib.Component]
+
+  ApcUpsDevice:
+    base: [zenpacklib.Device]
+    label: Device
+    impacted_by: [apcUpsBatterys]
+    properties:
+      numBatteryPacks:
+        type: int
+        label: Number Battery Packs
+
+      numBadBatteryPacks:
+        type: int
+        label: Number Bad Battery Packs
+
+      basicOutputStatus:
+        type: int
+        label: Basic Output Status
+
+      basicOutputStatusText:
+        type: string
+        label: Basic Output Status Text
+
+  ApcUpsBattery:
+    label: Battery
+    impacts: [apcUpsDevice]
+    properties:
+      batteryStatus:
+        type: int
+        label: Status
+        renderer: Zenoss.render.severity
+        order: 3
+
+      batteryStatusText:
+        type: string
+        label: Status text
+        order: 4
+
+      timeOnBattery:
+        type: string
+        label: Time On Battery
+        order: 5
+
+      batteryLastReplacementDate:
+        type: string
+        label: Last Replacement Date
+        content_width: 120
+        order: 6
+
+      batteryReplaceIndicator:
+        type: int
+        label: Replace Indicator
+        renderer: Zenoss.render.severity
+        order: 1
+
+      batteryReplaceIndicatorText:
+        type: string
+        label: Replace Indicator Text
+        content_width: 120
+        order: 2
+class_relationships:
+  - ApcUpsDevice 1:MC ApcUpsBattery

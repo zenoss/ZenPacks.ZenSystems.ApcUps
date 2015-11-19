@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<folder exportedWithPermissions="false">
+  <parent>/public</parent>
+  <name>ApcUps_ZenPack</name>
+  <label>ApcUps_ZenPack</label>
+  <resource>ApcUps_Domain</resource>
+</folder>
