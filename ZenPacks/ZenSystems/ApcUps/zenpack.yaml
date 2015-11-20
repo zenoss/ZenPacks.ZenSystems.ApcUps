@@ -140,7 +140,7 @@ classes:
 
       batteryStatusText:
         type: string
-        label: Status text
+        label: Status Text
         order: 4
 
       timeOnBattery:
