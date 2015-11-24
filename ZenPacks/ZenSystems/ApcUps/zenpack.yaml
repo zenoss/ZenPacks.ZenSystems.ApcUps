@@ -18,20 +18,20 @@ device_classes:
             type: SNMP
             datapoints:
               actualVoltage:
-                aliases: {actualVoltage: null}
+                aliases: {actualVoltage__volts: null}
             oid: 1.3.6.1.4.1.318.1.1.1.2.2.8.0
           remainingCapacity:
             type: SNMP
             datapoints:
               remainingCapacity:
                 rrdmax: 100
-                aliases: {remainingCapacity: null}
+                aliases: {remainingCapacity__pct: null}
             oid: 1.3.6.1.4.1.318.1.1.1.2.2.1.0
           remainingTime:
             type: SNMP
             datapoints:
               remainingTime:
-                aliases: {remainingTime: null}
+                aliases: {remainingTime__mins: null}
             oid: 1.3.6.1.4.1.318.1.1.1.2.2.3.0
         graphs:
           Actual Voltage:
@@ -61,25 +61,25 @@ device_classes:
             type: SNMP
             datapoints:
               upsAdvBatteryCapacity:
-                aliases: {ups_adv_battery_capacity: null}
+                aliases: {ups_adv_battery_capacity__pct: null}
             oid: 1.3.6.1.4.1.318.1.1.1.2.2.1.0
           upsAdvOutputFrequency:
             type: SNMP
             datapoints:
               upsAdvOutputFrequency:
-                aliases: {ups_adv_output_frequency: null}
+                aliases: {ups_adv_output_frequency__hz: null}
             oid: 1.3.6.1.4.1.318.1.1.1.4.2.2.0
           upsAdvOutputLoad:
             type: SNMP
             datapoints:
               upsAdvOutputLoad:
-                aliases: {ups_adv_output_load: null}
+                aliases: {ups_adv_output_load__pct: null}
             oid: 1.3.6.1.4.1.318.1.1.1.4.2.3.0
           upsAdvOutputVoltage:
             type: SNMP
             datapoints:
               upsAdvOutputVoltage:
-                aliases: {ups_adv_output_voltage: null}
+                aliases: {ups_adv_output_voltage__vac: null}
             oid: 1.3.6.1.4.1.318.1.1.1.4.2.1.0
         graphs:
           Battery Capacity:

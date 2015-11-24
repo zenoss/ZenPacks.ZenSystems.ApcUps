@@ -12,7 +12,10 @@ from Products.ZenRelations.RelSchema import *
 
 
 class ApcUpsBattery(schema.ApcUpsBattery):
-    """Custom model code for ApcUpsBattery class."""
+    """
+    Custom model code for ApcUpsBattery class. We need old relations
+    to update existing instances such as object path
+    """
 
     class_dynamicview_group = 'Aps Ups Batterys'
     impacts = ['apcUpsDevice', ]

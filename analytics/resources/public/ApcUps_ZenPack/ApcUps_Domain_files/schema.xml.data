@@ -6,76 +6,76 @@
         <itemGroup resourceId="JoinTree_1" label="Measures" id="set_device_measures" description="">
           <itemGroups/>
           <items>
-            <item resourceId="JoinTree_1.daily_actualvoltage.fct_ts" dimensionOrMeasure="Dimension" id="daily_actualvoltage_fct_ts" label="actualvoltage / daily / TS"/>
-            <item resourceId="JoinTree_1.daily_actualvoltage.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_actualvoltage_fct_ts_gmt" label="actualvoltage / daily / TS GMT"/>
-            <item resourceId="JoinTree_1.daily_actualvoltage.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_actualvoltage_fct_avg" label="actualvoltage / daily / Average"/>
-            <item resourceId="JoinTree_1.daily_actualvoltage.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_actualvoltage_fct_max" label="actualvoltage / daily / Highest"/>
-            <item resourceId="JoinTree_1.daily_actualvoltage.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_actualvoltage_fct_min" label="actualvoltage / daily / Lowest"/>
-            <item resourceId="JoinTree_1.hourly_actualvoltage.fct_ts" dimensionOrMeasure="Dimension" id="hourly_actualvoltage_fct_ts" label="actualvoltage / hourly / TS"/>
-            <item resourceId="JoinTree_1.hourly_actualvoltage.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_actualvoltage_fct_ts_gmt" label="actualvoltage / hourly / TS GMT"/>
-            <item resourceId="JoinTree_1.hourly_actualvoltage.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_actualvoltage_fct_avg" label="actualvoltage / hourly / Average"/>
-            <item resourceId="JoinTree_1.hourly_actualvoltage.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_actualvoltage_fct_max" label="actualvoltage / hourly / Highest"/>
-            <item resourceId="JoinTree_1.hourly_actualvoltage.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_actualvoltage_fct_min" label="actualvoltage / hourly / Lowest"/>
-            <item resourceId="JoinTree_1.daily_remainingcapacity.fct_ts" dimensionOrMeasure="Dimension" id="daily_remainingcapacity_fct_ts" label="remainingcapacity / daily / TS"/>
-            <item resourceId="JoinTree_1.daily_remainingcapacity.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_remainingcapacity_fct_ts_gmt" label="remainingcapacity / daily / TS GMT"/>
-            <item resourceId="JoinTree_1.daily_remainingcapacity.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingcapacity_fct_avg" label="remainingcapacity / daily / Average"/>
-            <item resourceId="JoinTree_1.daily_remainingcapacity.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingcapacity_fct_max" label="remainingcapacity / daily / Highest"/>
-            <item resourceId="JoinTree_1.daily_remainingcapacity.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingcapacity_fct_min" label="remainingcapacity / daily / Lowest"/>
-            <item resourceId="JoinTree_1.hourly_remainingcapacity.fct_ts" dimensionOrMeasure="Dimension" id="hourly_remainingcapacity_fct_ts" label="remainingcapacity / hourly / TS"/>
-            <item resourceId="JoinTree_1.hourly_remainingcapacity.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_remainingcapacity_fct_ts_gmt" label="remainingcapacity / hourly / TS GMT"/>
-            <item resourceId="JoinTree_1.hourly_remainingcapacity.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingcapacity_fct_avg" label="remainingcapacity / hourly / Average"/>
-            <item resourceId="JoinTree_1.hourly_remainingcapacity.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingcapacity_fct_max" label="remainingcapacity / hourly / Highest"/>
-            <item resourceId="JoinTree_1.hourly_remainingcapacity.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingcapacity_fct_min" label="remainingcapacity / hourly / Lowest"/>
-            <item resourceId="JoinTree_1.daily_remainingtime.fct_ts" dimensionOrMeasure="Dimension" id="daily_remainingtime_fct_ts" label="remainingtime / daily / TS"/>
-            <item resourceId="JoinTree_1.daily_remainingtime.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_remainingtime_fct_ts_gmt" label="remainingtime / daily / TS GMT"/>
-            <item resourceId="JoinTree_1.daily_remainingtime.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingtime_fct_avg" label="remainingtime / daily / Average"/>
-            <item resourceId="JoinTree_1.daily_remainingtime.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingtime_fct_max" label="remainingtime / daily / Highest"/>
-            <item resourceId="JoinTree_1.daily_remainingtime.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingtime_fct_min" label="remainingtime / daily / Lowest"/>
-            <item resourceId="JoinTree_1.hourly_remainingtime.fct_ts" dimensionOrMeasure="Dimension" id="hourly_remainingtime_fct_ts" label="remainingtime / hourly / TS"/>
-            <item resourceId="JoinTree_1.hourly_remainingtime.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_remainingtime_fct_ts_gmt" label="remainingtime / hourly / TS GMT"/>
-            <item resourceId="JoinTree_1.hourly_remainingtime.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingtime_fct_avg" label="remainingtime / hourly / Average"/>
-            <item resourceId="JoinTree_1.hourly_remainingtime.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingtime_fct_max" label="remainingtime / hourly / Highest"/>
-            <item resourceId="JoinTree_1.hourly_remainingtime.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingtime_fct_min" label="remainingtime / hourly / Lowest"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_battery_capacity.fct_ts" dimensionOrMeasure="Dimension" id="daily_ups_adv_battery_capacity_fct_ts" label="ups_adv_battery_capacity / daily / TS"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_battery_capacity.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_ups_adv_battery_capacity_fct_ts_gmt" label="ups_adv_battery_capacity / daily / TS GMT"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_battery_capacity.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_battery_capacity_fct_avg" label="ups_adv_battery_capacity / daily / Average"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_battery_capacity.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_battery_capacity_fct_max" label="ups_adv_battery_capacity / daily / Highest"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_battery_capacity.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_battery_capacity_fct_min" label="ups_adv_battery_capacity / daily / Lowest"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_battery_capacity.fct_ts" dimensionOrMeasure="Dimension" id="hourly_ups_adv_battery_capacity_fct_ts" label="ups_adv_battery_capacity / hourly / TS"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_battery_capacity.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_ups_adv_battery_capacity_fct_ts_gmt" label="ups_adv_battery_capacity / hourly / TS GMT"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_battery_capacity.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_battery_capacity_fct_avg" label="ups_adv_battery_capacity / hourly / Average"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_battery_capacity.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_battery_capacity_fct_max" label="ups_adv_battery_capacity / hourly / Highest"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_battery_capacity.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_battery_capacity_fct_min" label="ups_adv_battery_capacity / hourly / Lowest"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_frequency.fct_ts" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_frequency_fct_ts" label="ups_adv_output_frequency / daily / TS"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_frequency.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_frequency_fct_ts_gmt" label="ups_adv_output_frequency / daily / TS GMT"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_frequency.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_frequency_fct_avg" label="ups_adv_output_frequency / daily / Average"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_frequency.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_frequency_fct_max" label="ups_adv_output_frequency / daily / Highest"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_frequency.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_frequency_fct_min" label="ups_adv_output_frequency / daily / Lowest"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_frequency.fct_ts" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_frequency_fct_ts" label="ups_adv_output_frequency / hourly / TS"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_frequency.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_frequency_fct_ts_gmt" label="ups_adv_output_frequency / hourly / TS GMT"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_frequency.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_frequency_fct_avg" label="ups_adv_output_frequency / hourly / Average"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_frequency.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_frequency_fct_max" label="ups_adv_output_frequency / hourly / Highest"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_frequency.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_frequency_fct_min" label="ups_adv_output_frequency / hourly / Lowest"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_load.fct_ts" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_load_fct_ts" label="ups_adv_output_load / daily / TS"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_load.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_load_fct_ts_gmt" label="ups_adv_output_load / daily / TS GMT"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_load.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_load_fct_avg" label="ups_adv_output_load / daily / Average"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_load.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_load_fct_max" label="ups_adv_output_load / daily / Highest"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_load.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_load_fct_min" label="ups_adv_output_load / daily / Lowest"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_load.fct_ts" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_load_fct_ts" label="ups_adv_output_load / hourly / TS"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_load.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_load_fct_ts_gmt" label="ups_adv_output_load / hourly / TS GMT"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_load.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_load_fct_avg" label="ups_adv_output_load / hourly / Average"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_load.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_load_fct_max" label="ups_adv_output_load / hourly / Highest"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_load.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_load_fct_min" label="ups_adv_output_load / hourly / Lowest"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_voltage.fct_ts" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_voltage_fct_ts" label="ups_adv_output_voltage / daily / TS"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_voltage.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_voltage_fct_ts_gmt" label="ups_adv_output_voltage / daily / TS GMT"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_voltage.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_voltage_fct_avg" label="ups_adv_output_voltage / daily / Average"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_voltage.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_voltage_fct_max" label="ups_adv_output_voltage / daily / Highest"/>
-            <item resourceId="JoinTree_1.daily_ups_adv_output_voltage.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_voltage_fct_min" label="ups_adv_output_voltage / daily / Lowest"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_voltage.fct_ts" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_voltage_fct_ts" label="ups_adv_output_voltage / hourly / TS"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_voltage.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_voltage_fct_ts_gmt" label="ups_adv_output_voltage / hourly / TS GMT"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_voltage.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_voltage_fct_avg" label="ups_adv_output_voltage / hourly / Average"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_voltage.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_voltage_fct_max" label="ups_adv_output_voltage / hourly / Highest"/>
-            <item resourceId="JoinTree_1.hourly_ups_adv_output_voltage.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_voltage_fct_min" label="ups_adv_output_voltage / hourly / Lowest"/>
+            <item resourceId="JoinTree_1.daily_actualvoltage__volts.fct_ts" dimensionOrMeasure="Dimension" id="daily_actualvoltage__volts_fct_ts" label="actualvoltage__volts / daily / TS"/>
+            <item resourceId="JoinTree_1.daily_actualvoltage__volts.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_actualvoltage__volts_fct_ts_gmt" label="actualvoltage__volts / daily / TS GMT"/>
+            <item resourceId="JoinTree_1.daily_actualvoltage__volts.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_actualvoltage__volts_fct_avg" label="actualvoltage__volts / daily / Average"/>
+            <item resourceId="JoinTree_1.daily_actualvoltage__volts.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_actualvoltage__volts_fct_max" label="actualvoltage__volts / daily / Highest"/>
+            <item resourceId="JoinTree_1.daily_actualvoltage__volts.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_actualvoltage__volts_fct_min" label="actualvoltage__volts / daily / Lowest"/>
+            <item resourceId="JoinTree_1.hourly_actualvoltage__volts.fct_ts" dimensionOrMeasure="Dimension" id="hourly_actualvoltage__volts_fct_ts" label="actualvoltage__volts / hourly / TS"/>
+            <item resourceId="JoinTree_1.hourly_actualvoltage__volts.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_actualvoltage__volts_fct_ts_gmt" label="actualvoltage__volts / hourly / TS GMT"/>
+            <item resourceId="JoinTree_1.hourly_actualvoltage__volts.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_actualvoltage__volts_fct_avg" label="actualvoltage__volts / hourly / Average"/>
+            <item resourceId="JoinTree_1.hourly_actualvoltage__volts.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_actualvoltage__volts_fct_max" label="actualvoltage__volts / hourly / Highest"/>
+            <item resourceId="JoinTree_1.hourly_actualvoltage__volts.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_actualvoltage__volts_fct_min" label="actualvoltage__volts / hourly / Lowest"/>
+            <item resourceId="JoinTree_1.daily_remainingcapacity__pct.fct_ts" dimensionOrMeasure="Dimension" id="daily_remainingcapacity__pct_fct_ts" label="remainingcapacity__pct / daily / TS"/>
+            <item resourceId="JoinTree_1.daily_remainingcapacity__pct.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_remainingcapacity__pct_fct_ts_gmt" label="remainingcapacity__pct / daily / TS GMT"/>
+            <item resourceId="JoinTree_1.daily_remainingcapacity__pct.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingcapacity__pct_fct_avg" label="remainingcapacity__pct / daily / Average"/>
+            <item resourceId="JoinTree_1.daily_remainingcapacity__pct.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingcapacity__pct_fct_max" label="remainingcapacity__pct / daily / Highest"/>
+            <item resourceId="JoinTree_1.daily_remainingcapacity__pct.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingcapacity__pct_fct_min" label="remainingcapacity__pct / daily / Lowest"/>
+            <item resourceId="JoinTree_1.hourly_remainingcapacity__pct.fct_ts" dimensionOrMeasure="Dimension" id="hourly_remainingcapacity__pct_fct_ts" label="remainingcapacity__pct / hourly / TS"/>
+            <item resourceId="JoinTree_1.hourly_remainingcapacity__pct.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_remainingcapacity__pct_fct_ts_gmt" label="remainingcapacity__pct / hourly / TS GMT"/>
+            <item resourceId="JoinTree_1.hourly_remainingcapacity__pct.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingcapacity__pct_fct_avg" label="remainingcapacity__pct / hourly / Average"/>
+            <item resourceId="JoinTree_1.hourly_remainingcapacity__pct.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingcapacity__pct_fct_max" label="remainingcapacity__pct / hourly / Highest"/>
+            <item resourceId="JoinTree_1.hourly_remainingcapacity__pct.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingcapacity__pct_fct_min" label="remainingcapacity__pct / hourly / Lowest"/>
+            <item resourceId="JoinTree_1.daily_remainingtime__mins.fct_ts" dimensionOrMeasure="Dimension" id="daily_remainingtime__mins_fct_ts" label="remainingtime__mins / daily / TS"/>
+            <item resourceId="JoinTree_1.daily_remainingtime__mins.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_remainingtime__mins_fct_ts_gmt" label="remainingtime__mins / daily / TS GMT"/>
+            <item resourceId="JoinTree_1.daily_remainingtime__mins.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingtime__mins_fct_avg" label="remainingtime__mins / daily / Average"/>
+            <item resourceId="JoinTree_1.daily_remainingtime__mins.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingtime__mins_fct_max" label="remainingtime__mins / daily / Highest"/>
+            <item resourceId="JoinTree_1.daily_remainingtime__mins.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_remainingtime__mins_fct_min" label="remainingtime__mins / daily / Lowest"/>
+            <item resourceId="JoinTree_1.hourly_remainingtime__mins.fct_ts" dimensionOrMeasure="Dimension" id="hourly_remainingtime__mins_fct_ts" label="remainingtime__mins / hourly / TS"/>
+            <item resourceId="JoinTree_1.hourly_remainingtime__mins.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_remainingtime__mins_fct_ts_gmt" label="remainingtime__mins / hourly / TS GMT"/>
+            <item resourceId="JoinTree_1.hourly_remainingtime__mins.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingtime__mins_fct_avg" label="remainingtime__mins / hourly / Average"/>
+            <item resourceId="JoinTree_1.hourly_remainingtime__mins.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingtime__mins_fct_max" label="remainingtime__mins / hourly / Highest"/>
+            <item resourceId="JoinTree_1.hourly_remainingtime__mins.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_remainingtime__mins_fct_min" label="remainingtime__mins / hourly / Lowest"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_battery_capacity__pct.fct_ts" dimensionOrMeasure="Dimension" id="daily_ups_adv_battery_capacity__pct_fct_ts" label="ups_adv_battery_capacity__pct / daily / TS"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_battery_capacity__pct.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_ups_adv_battery_capacity__pct_fct_ts_gmt" label="ups_adv_battery_capacity__pct / daily / TS GMT"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_battery_capacity__pct.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_battery_capacity__pct_fct_avg" label="ups_adv_battery_capacity__pct / daily / Average"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_battery_capacity__pct.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_battery_capacity__pct_fct_max" label="ups_adv_battery_capacity__pct / daily / Highest"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_battery_capacity__pct.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_battery_capacity__pct_fct_min" label="ups_adv_battery_capacity__pct / daily / Lowest"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_battery_capacity__pct.fct_ts" dimensionOrMeasure="Dimension" id="hourly_ups_adv_battery_capacity__pct_fct_ts" label="ups_adv_battery_capacity__pct / hourly / TS"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_battery_capacity__pct.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_ups_adv_battery_capacity__pct_fct_ts_gmt" label="ups_adv_battery_capacity__pct / hourly / TS GMT"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_battery_capacity__pct.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_battery_capacity__pct_fct_avg" label="ups_adv_battery_capacity__pct / hourly / Average"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_battery_capacity__pct.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_battery_capacity__pct_fct_max" label="ups_adv_battery_capacity__pct / hourly / Highest"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_battery_capacity__pct.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_battery_capacity__pct_fct_min" label="ups_adv_battery_capacity__pct / hourly / Lowest"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_frequency__hz.fct_ts" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_frequency__hz_fct_ts" label="ups_adv_output_frequency__hz / daily / TS"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_frequency__hz.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_frequency__hz_fct_ts_gmt" label="ups_adv_output_frequency__hz / daily / TS GMT"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_frequency__hz.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_frequency__hz_fct_avg" label="ups_adv_output_frequency__hz / daily / Average"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_frequency__hz.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_frequency__hz_fct_max" label="ups_adv_output_frequency__hz / daily / Highest"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_frequency__hz.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_frequency__hz_fct_min" label="ups_adv_output_frequency__hz / daily / Lowest"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_frequency__hz.fct_ts" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_frequency__hz_fct_ts" label="ups_adv_output_frequency__hz / hourly / TS"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_frequency__hz.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_frequency__hz_fct_ts_gmt" label="ups_adv_output_frequency__hz / hourly / TS GMT"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_frequency__hz.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_frequency__hz_fct_avg" label="ups_adv_output_frequency__hz / hourly / Average"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_frequency__hz.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_frequency__hz_fct_max" label="ups_adv_output_frequency__hz / hourly / Highest"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_frequency__hz.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_frequency__hz_fct_min" label="ups_adv_output_frequency__hz / hourly / Lowest"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_load__pct.fct_ts" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_load__pct_fct_ts" label="ups_adv_output_load__pct / daily / TS"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_load__pct.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_load__pct_fct_ts_gmt" label="ups_adv_output_load__pct / daily / TS GMT"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_load__pct.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_load__pct_fct_avg" label="ups_adv_output_load__pct / daily / Average"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_load__pct.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_load__pct_fct_max" label="ups_adv_output_load__pct / daily / Highest"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_load__pct.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_load__pct_fct_min" label="ups_adv_output_load__pct / daily / Lowest"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_load__pct.fct_ts" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_load__pct_fct_ts" label="ups_adv_output_load__pct / hourly / TS"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_load__pct.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_load__pct_fct_ts_gmt" label="ups_adv_output_load__pct / hourly / TS GMT"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_load__pct.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_load__pct_fct_avg" label="ups_adv_output_load__pct / hourly / Average"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_load__pct.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_load__pct_fct_max" label="ups_adv_output_load__pct / hourly / Highest"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_load__pct.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_load__pct_fct_min" label="ups_adv_output_load__pct / hourly / Lowest"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_voltage__vac.fct_ts" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_voltage__vac_fct_ts" label="ups_adv_output_voltage__vac / daily / TS"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_voltage__vac.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_ups_adv_output_voltage__vac_fct_ts_gmt" label="ups_adv_output_voltage__vac / daily / TS GMT"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_voltage__vac.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_voltage__vac_fct_avg" label="ups_adv_output_voltage__vac / daily / Average"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_voltage__vac.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_voltage__vac_fct_max" label="ups_adv_output_voltage__vac / daily / Highest"/>
+            <item resourceId="JoinTree_1.daily_ups_adv_output_voltage__vac.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_ups_adv_output_voltage__vac_fct_min" label="ups_adv_output_voltage__vac / daily / Lowest"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_voltage__vac.fct_ts" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_voltage__vac_fct_ts" label="ups_adv_output_voltage__vac / hourly / TS"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_voltage__vac.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_ups_adv_output_voltage__vac_fct_ts_gmt" label="ups_adv_output_voltage__vac / hourly / TS GMT"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_voltage__vac.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_voltage__vac_fct_avg" label="ups_adv_output_voltage__vac / hourly / Average"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_voltage__vac.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_voltage__vac_fct_max" label="ups_adv_output_voltage__vac / hourly / Highest"/>
+            <item resourceId="JoinTree_1.hourly_ups_adv_output_voltage__vac.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_ups_adv_output_voltage__vac_fct_min" label="ups_adv_output_voltage__vac / hourly / Lowest"/>
           </items>
         </itemGroup>
       </itemGroups>
@@ -153,7 +153,7 @@
         <field type="java.util.Date" id="date_date"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="daily_actualvoltage" datasourceId="zenoss_reporting" id="daily_actualvoltage">
+    <jdbcTable tableName="daily_actualvoltage__volts" datasourceId="zenoss_reporting" id="daily_actualvoltage__volts">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -165,7 +165,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="hourly_actualvoltage" datasourceId="zenoss_reporting" id="hourly_actualvoltage">
+    <jdbcTable tableName="hourly_actualvoltage__volts" datasourceId="zenoss_reporting" id="hourly_actualvoltage__volts">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -177,7 +177,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="daily_remainingcapacity" datasourceId="zenoss_reporting" id="daily_remainingcapacity">
+    <jdbcTable tableName="daily_remainingcapacity__pct" datasourceId="zenoss_reporting" id="daily_remainingcapacity__pct">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -189,7 +189,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="hourly_remainingcapacity" datasourceId="zenoss_reporting" id="hourly_remainingcapacity">
+    <jdbcTable tableName="hourly_remainingcapacity__pct" datasourceId="zenoss_reporting" id="hourly_remainingcapacity__pct">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -201,7 +201,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="daily_remainingtime" datasourceId="zenoss_reporting" id="daily_remainingtime">
+    <jdbcTable tableName="daily_remainingtime__mins" datasourceId="zenoss_reporting" id="daily_remainingtime__mins">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -213,7 +213,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="hourly_remainingtime" datasourceId="zenoss_reporting" id="hourly_remainingtime">
+    <jdbcTable tableName="hourly_remainingtime__mins" datasourceId="zenoss_reporting" id="hourly_remainingtime__mins">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -225,7 +225,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="daily_ups_adv_battery_capacity" datasourceId="zenoss_reporting" id="daily_ups_adv_battery_capacity">
+    <jdbcTable tableName="daily_ups_adv_battery_capacity__pct" datasourceId="zenoss_reporting" id="daily_ups_adv_battery_capacity__pct">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -237,7 +237,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="hourly_ups_adv_battery_capacity" datasourceId="zenoss_reporting" id="hourly_ups_adv_battery_capacity">
+    <jdbcTable tableName="hourly_ups_adv_battery_capacity__pct" datasourceId="zenoss_reporting" id="hourly_ups_adv_battery_capacity__pct">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -249,7 +249,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="daily_ups_adv_output_frequency" datasourceId="zenoss_reporting" id="daily_ups_adv_output_frequency">
+    <jdbcTable tableName="daily_ups_adv_output_frequency__hz" datasourceId="zenoss_reporting" id="daily_ups_adv_output_frequency__hz">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -261,7 +261,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="hourly_ups_adv_output_frequency" datasourceId="zenoss_reporting" id="hourly_ups_adv_output_frequency">
+    <jdbcTable tableName="hourly_ups_adv_output_frequency__hz" datasourceId="zenoss_reporting" id="hourly_ups_adv_output_frequency__hz">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -273,7 +273,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="daily_ups_adv_output_load" datasourceId="zenoss_reporting" id="daily_ups_adv_output_load">
+    <jdbcTable tableName="daily_ups_adv_output_load__pct" datasourceId="zenoss_reporting" id="daily_ups_adv_output_load__pct">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -285,7 +285,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="hourly_ups_adv_output_load" datasourceId="zenoss_reporting" id="hourly_ups_adv_output_load">
+    <jdbcTable tableName="hourly_ups_adv_output_load__pct" datasourceId="zenoss_reporting" id="hourly_ups_adv_output_load__pct">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -297,7 +297,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="daily_ups_adv_output_voltage" datasourceId="zenoss_reporting" id="daily_ups_adv_output_voltage">
+    <jdbcTable tableName="daily_ups_adv_output_voltage__vac" datasourceId="zenoss_reporting" id="daily_ups_adv_output_voltage__vac">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -309,7 +309,7 @@
         <field type="java.lang.Double" id="fct_min"/>
       </fieldList>
     </jdbcTable>
-    <jdbcTable tableName="hourly_ups_adv_output_voltage" datasourceId="zenoss_reporting" id="hourly_ups_adv_output_voltage">
+    <jdbcTable tableName="hourly_ups_adv_output_voltage__vac" datasourceId="zenoss_reporting" id="hourly_ups_adv_output_voltage__vac">
       <fieldList>
         <field type="java.lang.Integer" id="device_key"/>
         <field type="java.lang.Integer" id="component_key"/>
@@ -339,6 +339,7 @@
         <field type="java.lang.Double" id="batteryReplaceIndicator"/>
         <field type="java.lang.String" id="batteryReplaceIndicatorText"/>
         <field type="java.lang.Integer" id="apc_ups_device_key"/>
+        <field type="java.lang.Integer" id="apc_ups_dev_bat_key"/>
       </fieldList>
     </jdbcTable>
     <jdbcTable tableName="dim_device" datasourceId="zenoss_reporting" id="JoinTree_1">
@@ -380,118 +381,118 @@
         <field type="java.lang.String" id="dim_device.numBadBatteryPacks"/>
         <field type="java.lang.String" id="dim_device.basicOutputStatus"/>
         <field type="java.lang.String" id="dim_device.basicOutputStatusText"/>
-        <field type="java.lang.Integer" id="daily_actualvoltage.device_key"/>
-        <field type="java.lang.Integer" id="daily_actualvoltage.component_key"/>
-        <field type="java.util.Date" id="daily_actualvoltage.date_key"/>
-        <field type="java.sql.Timestamp" id="daily_actualvoltage.fct_ts"/>
-        <field type="java.sql.Timestamp" id="daily_actualvoltage.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="daily_actualvoltage.fct_avg"/>
-        <field type="java.lang.Double" id="daily_actualvoltage.fct_max"/>
-        <field type="java.lang.Double" id="daily_actualvoltage.fct_min"/>
-        <field type="java.lang.Integer" id="hourly_actualvoltage.device_key"/>
-        <field type="java.lang.Integer" id="hourly_actualvoltage.component_key"/>
-        <field type="java.util.Date" id="hourly_actualvoltage.date_key"/>
-        <field type="java.sql.Timestamp" id="hourly_actualvoltage.fct_ts"/>
-        <field type="java.sql.Timestamp" id="hourly_actualvoltage.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="hourly_actualvoltage.fct_avg"/>
-        <field type="java.lang.Double" id="hourly_actualvoltage.fct_max"/>
-        <field type="java.lang.Double" id="hourly_actualvoltage.fct_min"/>
-        <field type="java.lang.Integer" id="daily_remainingcapacity.device_key"/>
-        <field type="java.lang.Integer" id="daily_remainingcapacity.component_key"/>
-        <field type="java.util.Date" id="daily_remainingcapacity.date_key"/>
-        <field type="java.sql.Timestamp" id="daily_remainingcapacity.fct_ts"/>
-        <field type="java.sql.Timestamp" id="daily_remainingcapacity.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="daily_remainingcapacity.fct_avg"/>
-        <field type="java.lang.Double" id="daily_remainingcapacity.fct_max"/>
-        <field type="java.lang.Double" id="daily_remainingcapacity.fct_min"/>
-        <field type="java.lang.Integer" id="hourly_remainingcapacity.device_key"/>
-        <field type="java.lang.Integer" id="hourly_remainingcapacity.component_key"/>
-        <field type="java.util.Date" id="hourly_remainingcapacity.date_key"/>
-        <field type="java.sql.Timestamp" id="hourly_remainingcapacity.fct_ts"/>
-        <field type="java.sql.Timestamp" id="hourly_remainingcapacity.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="hourly_remainingcapacity.fct_avg"/>
-        <field type="java.lang.Double" id="hourly_remainingcapacity.fct_max"/>
-        <field type="java.lang.Double" id="hourly_remainingcapacity.fct_min"/>
-        <field type="java.lang.Integer" id="daily_remainingtime.device_key"/>
-        <field type="java.lang.Integer" id="daily_remainingtime.component_key"/>
-        <field type="java.util.Date" id="daily_remainingtime.date_key"/>
-        <field type="java.sql.Timestamp" id="daily_remainingtime.fct_ts"/>
-        <field type="java.sql.Timestamp" id="daily_remainingtime.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="daily_remainingtime.fct_avg"/>
-        <field type="java.lang.Double" id="daily_remainingtime.fct_max"/>
-        <field type="java.lang.Double" id="daily_remainingtime.fct_min"/>
-        <field type="java.lang.Integer" id="hourly_remainingtime.device_key"/>
-        <field type="java.lang.Integer" id="hourly_remainingtime.component_key"/>
-        <field type="java.util.Date" id="hourly_remainingtime.date_key"/>
-        <field type="java.sql.Timestamp" id="hourly_remainingtime.fct_ts"/>
-        <field type="java.sql.Timestamp" id="hourly_remainingtime.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="hourly_remainingtime.fct_avg"/>
-        <field type="java.lang.Double" id="hourly_remainingtime.fct_max"/>
-        <field type="java.lang.Double" id="hourly_remainingtime.fct_min"/>
-        <field type="java.lang.Integer" id="daily_ups_adv_battery_capacity.device_key"/>
-        <field type="java.lang.Integer" id="daily_ups_adv_battery_capacity.component_key"/>
-        <field type="java.util.Date" id="daily_ups_adv_battery_capacity.date_key"/>
-        <field type="java.sql.Timestamp" id="daily_ups_adv_battery_capacity.fct_ts"/>
-        <field type="java.sql.Timestamp" id="daily_ups_adv_battery_capacity.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="daily_ups_adv_battery_capacity.fct_avg"/>
-        <field type="java.lang.Double" id="daily_ups_adv_battery_capacity.fct_max"/>
-        <field type="java.lang.Double" id="daily_ups_adv_battery_capacity.fct_min"/>
-        <field type="java.lang.Integer" id="hourly_ups_adv_battery_capacity.device_key"/>
-        <field type="java.lang.Integer" id="hourly_ups_adv_battery_capacity.component_key"/>
-        <field type="java.util.Date" id="hourly_ups_adv_battery_capacity.date_key"/>
-        <field type="java.sql.Timestamp" id="hourly_ups_adv_battery_capacity.fct_ts"/>
-        <field type="java.sql.Timestamp" id="hourly_ups_adv_battery_capacity.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_battery_capacity.fct_avg"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_battery_capacity.fct_max"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_battery_capacity.fct_min"/>
-        <field type="java.lang.Integer" id="daily_ups_adv_output_frequency.device_key"/>
-        <field type="java.lang.Integer" id="daily_ups_adv_output_frequency.component_key"/>
-        <field type="java.util.Date" id="daily_ups_adv_output_frequency.date_key"/>
-        <field type="java.sql.Timestamp" id="daily_ups_adv_output_frequency.fct_ts"/>
-        <field type="java.sql.Timestamp" id="daily_ups_adv_output_frequency.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="daily_ups_adv_output_frequency.fct_avg"/>
-        <field type="java.lang.Double" id="daily_ups_adv_output_frequency.fct_max"/>
-        <field type="java.lang.Double" id="daily_ups_adv_output_frequency.fct_min"/>
-        <field type="java.lang.Integer" id="hourly_ups_adv_output_frequency.device_key"/>
-        <field type="java.lang.Integer" id="hourly_ups_adv_output_frequency.component_key"/>
-        <field type="java.util.Date" id="hourly_ups_adv_output_frequency.date_key"/>
-        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_frequency.fct_ts"/>
-        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_frequency.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_output_frequency.fct_avg"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_output_frequency.fct_max"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_output_frequency.fct_min"/>
-        <field type="java.lang.Integer" id="daily_ups_adv_output_load.device_key"/>
-        <field type="java.lang.Integer" id="daily_ups_adv_output_load.component_key"/>
-        <field type="java.util.Date" id="daily_ups_adv_output_load.date_key"/>
-        <field type="java.sql.Timestamp" id="daily_ups_adv_output_load.fct_ts"/>
-        <field type="java.sql.Timestamp" id="daily_ups_adv_output_load.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="daily_ups_adv_output_load.fct_avg"/>
-        <field type="java.lang.Double" id="daily_ups_adv_output_load.fct_max"/>
-        <field type="java.lang.Double" id="daily_ups_adv_output_load.fct_min"/>
-        <field type="java.lang.Integer" id="hourly_ups_adv_output_load.device_key"/>
-        <field type="java.lang.Integer" id="hourly_ups_adv_output_load.component_key"/>
-        <field type="java.util.Date" id="hourly_ups_adv_output_load.date_key"/>
-        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_load.fct_ts"/>
-        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_load.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_output_load.fct_avg"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_output_load.fct_max"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_output_load.fct_min"/>
-        <field type="java.lang.Integer" id="daily_ups_adv_output_voltage.device_key"/>
-        <field type="java.lang.Integer" id="daily_ups_adv_output_voltage.component_key"/>
-        <field type="java.util.Date" id="daily_ups_adv_output_voltage.date_key"/>
-        <field type="java.sql.Timestamp" id="daily_ups_adv_output_voltage.fct_ts"/>
-        <field type="java.sql.Timestamp" id="daily_ups_adv_output_voltage.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="daily_ups_adv_output_voltage.fct_avg"/>
-        <field type="java.lang.Double" id="daily_ups_adv_output_voltage.fct_max"/>
-        <field type="java.lang.Double" id="daily_ups_adv_output_voltage.fct_min"/>
-        <field type="java.lang.Integer" id="hourly_ups_adv_output_voltage.device_key"/>
-        <field type="java.lang.Integer" id="hourly_ups_adv_output_voltage.component_key"/>
-        <field type="java.util.Date" id="hourly_ups_adv_output_voltage.date_key"/>
-        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_voltage.fct_ts"/>
-        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_voltage.fct_ts_gmt"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_output_voltage.fct_avg"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_output_voltage.fct_max"/>
-        <field type="java.lang.Double" id="hourly_ups_adv_output_voltage.fct_min"/>
+        <field type="java.lang.Integer" id="daily_actualvoltage__volts.device_key"/>
+        <field type="java.lang.Integer" id="daily_actualvoltage__volts.component_key"/>
+        <field type="java.util.Date" id="daily_actualvoltage__volts.date_key"/>
+        <field type="java.sql.Timestamp" id="daily_actualvoltage__volts.fct_ts"/>
+        <field type="java.sql.Timestamp" id="daily_actualvoltage__volts.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="daily_actualvoltage__volts.fct_avg"/>
+        <field type="java.lang.Double" id="daily_actualvoltage__volts.fct_max"/>
+        <field type="java.lang.Double" id="daily_actualvoltage__volts.fct_min"/>
+        <field type="java.lang.Integer" id="hourly_actualvoltage__volts.device_key"/>
+        <field type="java.lang.Integer" id="hourly_actualvoltage__volts.component_key"/>
+        <field type="java.util.Date" id="hourly_actualvoltage__volts.date_key"/>
+        <field type="java.sql.Timestamp" id="hourly_actualvoltage__volts.fct_ts"/>
+        <field type="java.sql.Timestamp" id="hourly_actualvoltage__volts.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="hourly_actualvoltage__volts.fct_avg"/>
+        <field type="java.lang.Double" id="hourly_actualvoltage__volts.fct_max"/>
+        <field type="java.lang.Double" id="hourly_actualvoltage__volts.fct_min"/>
+        <field type="java.lang.Integer" id="daily_remainingcapacity__pct.device_key"/>
+        <field type="java.lang.Integer" id="daily_remainingcapacity__pct.component_key"/>
+        <field type="java.util.Date" id="daily_remainingcapacity__pct.date_key"/>
+        <field type="java.sql.Timestamp" id="daily_remainingcapacity__pct.fct_ts"/>
+        <field type="java.sql.Timestamp" id="daily_remainingcapacity__pct.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="daily_remainingcapacity__pct.fct_avg"/>
+        <field type="java.lang.Double" id="daily_remainingcapacity__pct.fct_max"/>
+        <field type="java.lang.Double" id="daily_remainingcapacity__pct.fct_min"/>
+        <field type="java.lang.Integer" id="hourly_remainingcapacity__pct.device_key"/>
+        <field type="java.lang.Integer" id="hourly_remainingcapacity__pct.component_key"/>
+        <field type="java.util.Date" id="hourly_remainingcapacity__pct.date_key"/>
+        <field type="java.sql.Timestamp" id="hourly_remainingcapacity__pct.fct_ts"/>
+        <field type="java.sql.Timestamp" id="hourly_remainingcapacity__pct.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="hourly_remainingcapacity__pct.fct_avg"/>
+        <field type="java.lang.Double" id="hourly_remainingcapacity__pct.fct_max"/>
+        <field type="java.lang.Double" id="hourly_remainingcapacity__pct.fct_min"/>
+        <field type="java.lang.Integer" id="daily_remainingtime__mins.device_key"/>
+        <field type="java.lang.Integer" id="daily_remainingtime__mins.component_key"/>
+        <field type="java.util.Date" id="daily_remainingtime__mins.date_key"/>
+        <field type="java.sql.Timestamp" id="daily_remainingtime__mins.fct_ts"/>
+        <field type="java.sql.Timestamp" id="daily_remainingtime__mins.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="daily_remainingtime__mins.fct_avg"/>
+        <field type="java.lang.Double" id="daily_remainingtime__mins.fct_max"/>
+        <field type="java.lang.Double" id="daily_remainingtime__mins.fct_min"/>
+        <field type="java.lang.Integer" id="hourly_remainingtime__mins.device_key"/>
+        <field type="java.lang.Integer" id="hourly_remainingtime__mins.component_key"/>
+        <field type="java.util.Date" id="hourly_remainingtime__mins.date_key"/>
+        <field type="java.sql.Timestamp" id="hourly_remainingtime__mins.fct_ts"/>
+        <field type="java.sql.Timestamp" id="hourly_remainingtime__mins.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="hourly_remainingtime__mins.fct_avg"/>
+        <field type="java.lang.Double" id="hourly_remainingtime__mins.fct_max"/>
+        <field type="java.lang.Double" id="hourly_remainingtime__mins.fct_min"/>
+        <field type="java.lang.Integer" id="daily_ups_adv_battery_capacity__pct.device_key"/>
+        <field type="java.lang.Integer" id="daily_ups_adv_battery_capacity__pct.component_key"/>
+        <field type="java.util.Date" id="daily_ups_adv_battery_capacity__pct.date_key"/>
+        <field type="java.sql.Timestamp" id="daily_ups_adv_battery_capacity__pct.fct_ts"/>
+        <field type="java.sql.Timestamp" id="daily_ups_adv_battery_capacity__pct.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="daily_ups_adv_battery_capacity__pct.fct_avg"/>
+        <field type="java.lang.Double" id="daily_ups_adv_battery_capacity__pct.fct_max"/>
+        <field type="java.lang.Double" id="daily_ups_adv_battery_capacity__pct.fct_min"/>
+        <field type="java.lang.Integer" id="hourly_ups_adv_battery_capacity__pct.device_key"/>
+        <field type="java.lang.Integer" id="hourly_ups_adv_battery_capacity__pct.component_key"/>
+        <field type="java.util.Date" id="hourly_ups_adv_battery_capacity__pct.date_key"/>
+        <field type="java.sql.Timestamp" id="hourly_ups_adv_battery_capacity__pct.fct_ts"/>
+        <field type="java.sql.Timestamp" id="hourly_ups_adv_battery_capacity__pct.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_battery_capacity__pct.fct_avg"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_battery_capacity__pct.fct_max"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_battery_capacity__pct.fct_min"/>
+        <field type="java.lang.Integer" id="daily_ups_adv_output_frequency__hz.device_key"/>
+        <field type="java.lang.Integer" id="daily_ups_adv_output_frequency__hz.component_key"/>
+        <field type="java.util.Date" id="daily_ups_adv_output_frequency__hz.date_key"/>
+        <field type="java.sql.Timestamp" id="daily_ups_adv_output_frequency__hz.fct_ts"/>
+        <field type="java.sql.Timestamp" id="daily_ups_adv_output_frequency__hz.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="daily_ups_adv_output_frequency__hz.fct_avg"/>
+        <field type="java.lang.Double" id="daily_ups_adv_output_frequency__hz.fct_max"/>
+        <field type="java.lang.Double" id="daily_ups_adv_output_frequency__hz.fct_min"/>
+        <field type="java.lang.Integer" id="hourly_ups_adv_output_frequency__hz.device_key"/>
+        <field type="java.lang.Integer" id="hourly_ups_adv_output_frequency__hz.component_key"/>
+        <field type="java.util.Date" id="hourly_ups_adv_output_frequency__hz.date_key"/>
+        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_frequency__hz.fct_ts"/>
+        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_frequency__hz.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_output_frequency__hz.fct_avg"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_output_frequency__hz.fct_max"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_output_frequency__hz.fct_min"/>
+        <field type="java.lang.Integer" id="daily_ups_adv_output_load__pct.device_key"/>
+        <field type="java.lang.Integer" id="daily_ups_adv_output_load__pct.component_key"/>
+        <field type="java.util.Date" id="daily_ups_adv_output_load__pct.date_key"/>
+        <field type="java.sql.Timestamp" id="daily_ups_adv_output_load__pct.fct_ts"/>
+        <field type="java.sql.Timestamp" id="daily_ups_adv_output_load__pct.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="daily_ups_adv_output_load__pct.fct_avg"/>
+        <field type="java.lang.Double" id="daily_ups_adv_output_load__pct.fct_max"/>
+        <field type="java.lang.Double" id="daily_ups_adv_output_load__pct.fct_min"/>
+        <field type="java.lang.Integer" id="hourly_ups_adv_output_load__pct.device_key"/>
+        <field type="java.lang.Integer" id="hourly_ups_adv_output_load__pct.component_key"/>
+        <field type="java.util.Date" id="hourly_ups_adv_output_load__pct.date_key"/>
+        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_load__pct.fct_ts"/>
+        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_load__pct.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_output_load__pct.fct_avg"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_output_load__pct.fct_max"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_output_load__pct.fct_min"/>
+        <field type="java.lang.Integer" id="daily_ups_adv_output_voltage__vac.device_key"/>
+        <field type="java.lang.Integer" id="daily_ups_adv_output_voltage__vac.component_key"/>
+        <field type="java.util.Date" id="daily_ups_adv_output_voltage__vac.date_key"/>
+        <field type="java.sql.Timestamp" id="daily_ups_adv_output_voltage__vac.fct_ts"/>
+        <field type="java.sql.Timestamp" id="daily_ups_adv_output_voltage__vac.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="daily_ups_adv_output_voltage__vac.fct_avg"/>
+        <field type="java.lang.Double" id="daily_ups_adv_output_voltage__vac.fct_max"/>
+        <field type="java.lang.Double" id="daily_ups_adv_output_voltage__vac.fct_min"/>
+        <field type="java.lang.Integer" id="hourly_ups_adv_output_voltage__vac.device_key"/>
+        <field type="java.lang.Integer" id="hourly_ups_adv_output_voltage__vac.component_key"/>
+        <field type="java.util.Date" id="hourly_ups_adv_output_voltage__vac.date_key"/>
+        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_voltage__vac.fct_ts"/>
+        <field type="java.sql.Timestamp" id="hourly_ups_adv_output_voltage__vac.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_output_voltage__vac.fct_avg"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_output_voltage__vac.fct_max"/>
+        <field type="java.lang.Double" id="hourly_ups_adv_output_voltage__vac.fct_min"/>
         <field type="java.lang.Integer" id="dim_apc_ups_battery.apc_ups_battery_key"/>
         <field type="java.sql.Timestamp" id="dim_apc_ups_battery.apc_ups_battery_deleted_at"/>
         <field type="apc_ups_battery_deleted" id="dim_apc_ups_battery.apc_ups_battery_deleted" dataSetExpression="if(dim_apc_ups_battery.apc_ups_battery_deleted_at,null,0,1)"/>
@@ -508,57 +509,58 @@
         <field type="java.lang.Double" id="dim_apc_ups_battery.batteryReplaceIndicator"/>
         <field type="java.lang.String" id="dim_apc_ups_battery.batteryReplaceIndicatorText"/>
         <field type="java.lang.Integer" id="dim_apc_ups_battery.apc_ups_device_key"/>
+        <field type="java.lang.Integer" id="dim_apc_ups_battery.apc_ups_dev_bat_key"/>
       </fieldList>
       <filterString>contains(dim_device.device_class, 'ApcUps')</filterString>
       <joinInfo alias="dim_device" referenceId="dim_device"/>
       <joinedDataSetList>
         <joinedDataSetRef>
-          <joinString>left outer join daily_actualvoltage daily_actualvoltage on (dim_device.device_key == daily_actualvoltage.device_key)</joinString>
+          <joinString>left outer join daily_actualvoltage__volts daily_actualvoltage__volts on (dim_device.device_key == daily_actualvoltage__volts.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join hourly_actualvoltage hourly_actualvoltage on (dim_device.device_key == hourly_actualvoltage.device_key)</joinString>
+          <joinString>left outer join hourly_actualvoltage__volts hourly_actualvoltage__volts on (dim_device.device_key == hourly_actualvoltage__volts.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join daily_remainingcapacity daily_remainingcapacity on (dim_device.device_key == daily_remainingcapacity.device_key)</joinString>
+          <joinString>left outer join daily_remainingcapacity__pct daily_remainingcapacity__pct on (dim_device.device_key == daily_remainingcapacity__pct.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join hourly_remainingcapacity hourly_remainingcapacity on (dim_device.device_key == hourly_remainingcapacity.device_key)</joinString>
+          <joinString>left outer join hourly_remainingcapacity__pct hourly_remainingcapacity__pct on (dim_device.device_key == hourly_remainingcapacity__pct.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join daily_remainingtime daily_remainingtime on (dim_device.device_key == daily_remainingtime.device_key)</joinString>
+          <joinString>left outer join daily_remainingtime__mins daily_remainingtime__mins on (dim_device.device_key == daily_remainingtime__mins.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join hourly_remainingtime hourly_remainingtime on (dim_device.device_key == hourly_remainingtime.device_key)</joinString>
+          <joinString>left outer join hourly_remainingtime__mins hourly_remainingtime__mins on (dim_device.device_key == hourly_remainingtime__mins.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join daily_ups_adv_battery_capacity daily_ups_adv_battery_capacity on (dim_device.device_key == daily_ups_adv_battery_capacity.device_key)</joinString>
+          <joinString>left outer join daily_ups_adv_battery_capacity__pct daily_ups_adv_battery_capacity__pct on (dim_device.device_key == daily_ups_adv_battery_capacity__pct.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join hourly_ups_adv_battery_capacity hourly_ups_adv_battery_capacity on (dim_device.device_key == hourly_ups_adv_battery_capacity.device_key)</joinString>
+          <joinString>left outer join hourly_ups_adv_battery_capacity__pct hourly_ups_adv_battery_capacity__pct on (dim_device.device_key == hourly_ups_adv_battery_capacity__pct.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join daily_ups_adv_output_frequency daily_ups_adv_output_frequency on (dim_device.device_key == daily_ups_adv_output_frequency.device_key)</joinString>
+          <joinString>left outer join daily_ups_adv_output_frequency__hz daily_ups_adv_output_frequency__hz on (dim_device.device_key == daily_ups_adv_output_frequency__hz.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join hourly_ups_adv_output_frequency hourly_ups_adv_output_frequency on (dim_device.device_key == hourly_ups_adv_output_frequency.device_key)</joinString>
+          <joinString>left outer join hourly_ups_adv_output_frequency__hz hourly_ups_adv_output_frequency__hz on (dim_device.device_key == hourly_ups_adv_output_frequency__hz.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join daily_ups_adv_output_load daily_ups_adv_output_load on (dim_device.device_key == daily_ups_adv_output_load.device_key)</joinString>
+          <joinString>left outer join daily_ups_adv_output_load__pct daily_ups_adv_output_load__pct on (dim_device.device_key == daily_ups_adv_output_load__pct.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join hourly_ups_adv_output_load hourly_ups_adv_output_load on (dim_device.device_key == hourly_ups_adv_output_load.device_key)</joinString>
+          <joinString>left outer join hourly_ups_adv_output_load__pct hourly_ups_adv_output_load__pct on (dim_device.device_key == hourly_ups_adv_output_load__pct.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join daily_ups_adv_output_voltage daily_ups_adv_output_voltage on (dim_device.device_key == daily_ups_adv_output_voltage.device_key)</joinString>
+          <joinString>left outer join daily_ups_adv_output_voltage__vac daily_ups_adv_output_voltage__vac on (dim_device.device_key == daily_ups_adv_output_voltage__vac.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join hourly_ups_adv_output_voltage hourly_ups_adv_output_voltage on (dim_device.device_key == hourly_ups_adv_output_voltage.device_key)</joinString>
+          <joinString>left outer join hourly_ups_adv_output_voltage__vac hourly_ups_adv_output_voltage__vac on (dim_device.device_key == hourly_ups_adv_output_voltage__vac.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
           <joinString>left outer join dim_apc_ups_battery dim_apc_ups_battery on (dim_apc_ups_battery.apc_ups_device_key == dim_device.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join dim_date dim_date on (hourly_remainingtime.date_key == dim_date.date_key and hourly_ups_adv_output_voltage.date_key == dim_date.date_key and hourly_remainingcapacity.date_key == dim_date.date_key and daily_ups_adv_output_frequency.date_key == dim_date.date_key and daily_actualvoltage.date_key == dim_date.date_key and daily_remainingcapacity.date_key == dim_date.date_key and hourly_ups_adv_output_frequency.date_key == dim_date.date_key and daily_ups_adv_battery_capacity.date_key == dim_date.date_key and hourly_ups_adv_output_load.date_key == dim_date.date_key and hourly_ups_adv_battery_capacity.date_key == dim_date.date_key and hourly_actualvoltage.date_key == dim_date.date_key and daily_ups_adv_output_load.date_key == dim_date.date_key and daily_remainingtime.date_key == dim_date.date_key and daily_ups_adv_output_voltage.date_key == dim_date.date_key)</joinString>
+          <joinString>left outer join dim_date dim_date on (hourly_ups_adv_output_frequency__hz.date_key == dim_date.date_key and daily_actualvoltage__volts.date_key == dim_date.date_key and daily_remainingtime__mins.date_key == dim_date.date_key and daily_ups_adv_output_load__pct.date_key == dim_date.date_key and hourly_actualvoltage__volts.date_key == dim_date.date_key and daily_ups_adv_battery_capacity__pct.date_key == dim_date.date_key and hourly_ups_adv_output_load__pct.date_key == dim_date.date_key and hourly_remainingtime__mins.date_key == dim_date.date_key and hourly_remainingcapacity__pct.date_key == dim_date.date_key and daily_ups_adv_output_frequency__hz.date_key == dim_date.date_key and daily_ups_adv_output_voltage__vac.date_key == dim_date.date_key and hourly_ups_adv_output_voltage__vac.date_key == dim_date.date_key and daily_remainingcapacity__pct.date_key == dim_date.date_key and hourly_ups_adv_battery_capacity__pct.date_key == dim_date.date_key)</joinString>
         </joinedDataSetRef>
       </joinedDataSetList>
     </jdbcTable>
