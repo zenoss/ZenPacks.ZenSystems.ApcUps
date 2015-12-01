@@ -22,6 +22,7 @@ class UpdateRelations(ZenPackMigration):
     version = Version(1, 2, 0)
 
     def migrate(self, pack):
+        import pdb; pdb.set_trace()
         _log = logging.getLogger('Zope.ZCatalog')
         _log.setLevel(logging.FATAL)
         log.info(

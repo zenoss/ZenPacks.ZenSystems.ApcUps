@@ -5,13 +5,6 @@
     xmlns:zcml="http://namespaces.zope.org/zcml"
     >
 
-     <!-- ZenETL Custom Reportables -->
-
-    <include file="reportable.zcml"
-        xmlns:zcml="http://namespaces.zope.org/zcml"
-        zcml:condition="installed ZenPacks.zenoss.ZenETL"
-        />
-
     <!-- Browser -->
     <browser:resourceDirectory
         name="apcups"
