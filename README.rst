@@ -13,70 +13,59 @@ Components
 The ZenPack has the following new Device Class
     * /Devices/Power/UPS/ApcUps
 
-    * Components are: 
-        * ApcUpsBattery which has details for: 
-            * Various elements of battery status 
+    * Components are:
+        * ApcUpsBattery which has details for:
+            * Various elements of battery status
 
-    * Modeler plugins are:   
-        * ApcUpsDeviceMap    
+    * Modeler plugins are:
+        * ApcUpsDeviceMap
             * Gathers Hardware and Software manufacturer and product
             * Serial number
             * Total number of battery packs
             * Number of bad battery packs
             * Basic output status
-        * ApcUpsBatteryMap    
+        * ApcUpsBatteryMap
             * Gathers battery data for status
             * Time on battery
             * Battery last replacement date
             * Battery replacement indicator
 
-    * Device template ApcUps provides device-level performance information:    
-        * Data Sources    
+    * Device template ApcUps provides device-level performance information:
+        * Data Sources
             * Voltage
-            * Current
+            * Frequency
             * Remaining capacity and time
-            * Temperature 
-        * Thresholds    
-            * Low capacity
-            * Low time remaining
-            * High temperature
-        * Graph Definitions    
-            * Voltage
-            * Current
-            * Remaining capacity
-            * Remaining time
-            * Temperature
+            * Load
+        * Graph Definitions
+            * Actual Voltage
+            * Remaining Capacity
+            * Remaining Time
+            * Battery Capacity
+            * Output Frequency
+            * Output Load
+            * Output Voltage
 
-    * Device template ApcUpsInsAndOuts provides specific input / output performance information:    
-        * Data Sources    
-            * Input frequency and voltage
-            * Output frequency, voltage, load and current 
-        * Thresholds    
-            * High load
-        * Graph Definitions    
-            * Input frequency and voltage
-            * Output frequency, voltage, load and current 
 
     * A separate APC UPS Information menu delivers tabular and graphical  information for the overall device
 
- 
+
 
 Requirements & Dependencies
 ===========================
 
-    * Zenoss Versions Supported: 3.0
+    * Zenoss Versions Supported: 4.2.4
     * External Dependencies: The APC UPS MIB needs to be available on target devices
     * ZenPack Dependencies:
     * Note that the standard /Power/UPS device class needs to exist.  If not, recreate it.
     * Installation Notes: zopectl restart after installing this ZenPack.
-    * Configuration: 
+    * Configuration:
 
 Download
 ========
 Download the appropriate package for your Zenoss version from the list
 below.
 
-* Zenoss 3.0+ `Latest Package for Python 2.6`_
+* Zenoss 4.2+ `Latest Package for Python 2.6`_
 
 Installation
 ============
@@ -91,7 +80,7 @@ user::
 
 Developer Installation (link mode)
 ----------------------------------
-If you wish to further develop and possibly contribute back to this 
+If you wish to further develop and possibly contribute back to this
 ZenPack you should clone the git repository, then install the ZenPack in
 developer mode::
 
@@ -102,7 +91,7 @@ developer mode::
 Configuration
 =============
 
-Tested with Zenoss 3.1 against APC UPS RT 5000 devices
+Tested with Zenoss 4.2.4 against APC Smart-UPS X 1500 devices
 
 Change History
 ==============
@@ -112,6 +101,8 @@ Change History
    * Some updates for extra debug
 * 1.2
    * Transferred to new github methods
+* 1.2.z1
+   * revwrited using zenpacklib, support analytics and impact
 
 Screenshots
 ===========
@@ -126,5 +117,5 @@ Screenshots
 .. |ApcUpsInfo| image:: http://github.com/jcurry/ZenPacks.ZenSystems.ApcUps/raw/master/screenshots/ApcUpsInformation.jpg
 .. |ApcUpsBatteriesComponent| image:: http://github.com/jcurry/ZenPacks.ZenSystems.ApcUps/raw/master/screenshots/ApcUpsBatteries.jpg
 
-                                                                        
+
 

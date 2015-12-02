@@ -1,25 +1,22 @@
-##############################################################################
+##########################################################################
+# Author:               Jane Curry,  jane.curry@skills-1st.co.uk
+# Date:                 March 28th, 2011
+# Revised:
 #
-# Copyright (C) Zenoss, Inc. 2015, all rights reserved.
+# ApcUpsBattery object class
 #
-# This content is made available according to terms specified in
-# License.zenoss under the directory where your Zenoss product is installed.
+# This program can be used under the GNU General Public License version 2
+# You can find full information here: http://www.zenoss.com/oss
 #
-##############################################################################
+##########################################################################
 
 from . import schema
-from Products.ZenRelations.RelSchema import *
 
 
 class ApcUpsBattery(schema.ApcUpsBattery):
     """
-    Custom model code for ApcUpsBattery class. We need old relations
-    to update existing instances such as object path
+    Custom model code for ApcUpsBattery class. We need this to
+    install new Zenoss version on top of ZenSystems one
     """
 
-    class_dynamicview_group = 'Aps Ups Batterys'
-    impacts = ['apcUpsDevice', ]
-
-schema.ApcUpsBattery._relations += (
-    ("ApcUpsDevBat", ToOne(ToManyCont,
-     "ZenPacks.ZenSystems.ApcUps.ApcUpsDevice", "ApcUpsBat")),)
+    class_dynamicview_group = 'Batterys'

@@ -338,7 +338,6 @@
         <field type="java.lang.String" id="batteryLastReplacementDate"/>
         <field type="java.lang.Double" id="batteryReplaceIndicator"/>
         <field type="java.lang.String" id="batteryReplaceIndicatorText"/>
-        <field type="java.lang.Integer" id="apc_ups_device_key"/>
         <field type="java.lang.Integer" id="apc_ups_dev_bat_key"/>
       </fieldList>
     </jdbcTable>
@@ -508,7 +507,6 @@
         <field type="java.lang.String" id="dim_apc_ups_battery.batteryLastReplacementDate"/>
         <field type="java.lang.Double" id="dim_apc_ups_battery.batteryReplaceIndicator"/>
         <field type="java.lang.String" id="dim_apc_ups_battery.batteryReplaceIndicatorText"/>
-        <field type="java.lang.Integer" id="dim_apc_ups_battery.apc_ups_device_key"/>
         <field type="java.lang.Integer" id="dim_apc_ups_battery.apc_ups_dev_bat_key"/>
       </fieldList>
       <filterString>contains(dim_device.device_class, 'ApcUps')</filterString>
@@ -557,7 +555,7 @@
           <joinString>left outer join hourly_ups_adv_output_voltage__vac hourly_ups_adv_output_voltage__vac on (dim_device.device_key == hourly_ups_adv_output_voltage__vac.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
-          <joinString>left outer join dim_apc_ups_battery dim_apc_ups_battery on (dim_apc_ups_battery.apc_ups_device_key == dim_device.device_key)</joinString>
+          <joinString>left outer join dim_apc_ups_battery dim_apc_ups_battery on (dim_apc_ups_battery.apc_ups_dev_bat_key == dim_device.device_key)</joinString>
         </joinedDataSetRef>
         <joinedDataSetRef>
           <joinString>left outer join dim_date dim_date on (hourly_ups_adv_output_frequency__hz.date_key == dim_date.date_key and daily_actualvoltage__volts.date_key == dim_date.date_key and daily_remainingtime__mins.date_key == dim_date.date_key and daily_ups_adv_output_load__pct.date_key == dim_date.date_key and hourly_actualvoltage__volts.date_key == dim_date.date_key and daily_ups_adv_battery_capacity__pct.date_key == dim_date.date_key and hourly_ups_adv_output_load__pct.date_key == dim_date.date_key and hourly_remainingtime__mins.date_key == dim_date.date_key and hourly_remainingcapacity__pct.date_key == dim_date.date_key and daily_ups_adv_output_frequency__hz.date_key == dim_date.date_key and daily_ups_adv_output_voltage__vac.date_key == dim_date.date_key and hourly_ups_adv_output_voltage__vac.date_key == dim_date.date_key and daily_remainingcapacity__pct.date_key == dim_date.date_key and hourly_ups_adv_battery_capacity__pct.date_key == dim_date.date_key)</joinString>

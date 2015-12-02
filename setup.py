@@ -3,13 +3,13 @@
 # or saved.  Do not modify them directly here.
 # NB: PACKAGES is deprecated
 NAME = "ZenPacks.ZenSystems.ApcUps"
-VERSION = "1.2.z1"
+VERSION = "1.3.z1"
 AUTHOR = "Jane Curry"
 LICENSE = "GPLv2"
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.ZenSystems']
 PACKAGES = ['ZenPacks', 'ZenPacks.ZenSystems', 'ZenPacks.ZenSystems.ApcUps']
 INSTALL_REQUIRES = []
-COMPAT_ZENOSS_VERS = ">=3.0"
+COMPAT_ZENOSS_VERS = ">=4.2"
 PREV_ZENPACK_NAME = ""
 # STOP_REPLACEMENTS
 ################################

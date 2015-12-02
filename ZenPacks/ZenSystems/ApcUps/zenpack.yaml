@@ -110,7 +110,9 @@ classes:
   ApcUpsDevice:
     base: [zenpacklib.Device]
     label: Device
-    impacted_by: [apcUpsBatterys]
+    dynamicview_views: [service_view]
+    dynamicview_relations:
+      impacted_by: [ApcUpsBat]
     properties:
       numBatteryPacks:
         type: int
@@ -130,7 +132,9 @@ classes:
 
   ApcUpsBattery:
     label: Battery
-    impacts: [apcUpsDevice]
+    dynamicview_views: [service_view]
+    dynamicview_relations:
+      impacts: [ApcUpsDevBat]
     properties:
       batteryStatus:
         type: int
@@ -166,4 +170,4 @@ classes:
         content_width: 120
         order: 2
 class_relationships:
-  - ApcUpsDevice 1:MC ApcUpsBattery
+  - ApcUpsDevice(ApcUpsBat) 1:MC ApcUpsBattery(ApcUpsDevBat)

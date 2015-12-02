@@ -29,7 +29,7 @@ class ApcUpsBatteryMap(SnmpPlugin):
     compname = ""
     maptype = "ApcUpsBatteryMap"
     modname = "ZenPacks.ZenSystems.ApcUps.ApcUpsBattery"
-    relname = "apcUpsBatterys"
+    relname = "ApcUpsBat"
 
     snmpGetMap = GetMap({
         '.1.3.6.1.4.1.318.1.1.1.2.1.1.0': 'batteryStatus',
