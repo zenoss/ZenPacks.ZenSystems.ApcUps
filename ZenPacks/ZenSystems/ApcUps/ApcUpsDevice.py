@@ -10,52 +10,13 @@
 #
 ##########################################################################
 
-from Globals import InitializeClass
-from Products.ZenRelations.RelSchema import *
-from Products.ZenModel.Device import Device
-from Products.ZenModel.ZenossSecurity import ZEN_VIEW
-from copy import deepcopy
+from . import schema
 
 
-class ApcUpsDevice(Device):
-    "An APC UPS Device"
+class ApcUpsDevice(schema.ApcUpsDevice):
+    """
+    Custom model code for ApcUpsDevice class. We need this to
+    install new Zenoss version on top of ZenSystems one
+    """
 
-    #**************Custom data Variables here from modeling************************
-
-    numBatteryPacks = 0
-    numBadBatteryPacks = 0
-    basicOutputStatus = 0
-    basicOutputStatusText = ''
-
-    #**************END CUSTOM VARIABLES *****************************
-
-
-    #*************  Those should match this list below *******************
-    _properties = Device._properties + (
-        {'id':'numBatteryPacks', 'type':'int', 'mode':''},
-        {'id':'numBadBatteryPacks', 'type':'int', 'mode':''},
-        {'id':'basicOutputStatus', 'type':'int', 'mode':''},
-        {'id':'basicOutputStatusText', 'type':'string', 'mode':''},
-        )
-    #****************
-
-    _relations = Device._relations + (
-        ('ApcUpsBat', ToManyCont(ToOne, 'ZenPacks.ZenSystems.ApcUps.ApcUpsBattery', 'ApcUpsDevBat')),
-        )
-
-    factory_type_information = deepcopy(Device.factory_type_information)
-    factory_type_information[0]['actions'] += (
-            { 'id'              : 'ApcUpsInfo'
-            , 'name'            : 'APC UPS Information'
-            , 'action'          : 'ApcUpsDeviceDetail'
-            , 'permissions'     : (ZEN_VIEW, ) },
-            )
-
-
-
-    def __init__(self, *args, **kw):
-        Device.__init__(self, *args, **kw)
-        self.buildRelations()
-
-
-InitializeClass(ApcUpsDevice)
+    class_dynamicview_group = 'Devices'
